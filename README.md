@@ -12,6 +12,9 @@ Example:
 java -jar ESCPosPrinterSimulator.jar
 java -jar ESCPosPrinterSimulator.jar 9100
 java -jar ESCPosPrinterSimulator.jar 9100 receipts.txt 10
+
+run as linux / ubuntu background:
+java -jar ESCPosPrinterSimulator.jar 9100 receipts.txt 200 & exit
 ```
 Arguments:
 - port: optional - default 9100.  
