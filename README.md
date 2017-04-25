@@ -2,7 +2,7 @@
 ESC/POS Printer simulator written in Java.  
 This provide Swing GUI to display receipts and also write content to a file.
 The idea comes from JavaPos printer simulator and from [escpos-tools](https://github.com/receipt-print-hq/escpos-tools), a PHP library.  
-![ESC POS Printer simulator](./docs/escpos-printer-simulator.png)  
+![ESC POS Printer simulator](./docs/escpos-printer-simulator.png =300px)  
 
 ## Usage
 ```
