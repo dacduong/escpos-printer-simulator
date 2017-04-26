@@ -30,6 +30,7 @@ foreach ($file_arr as $filename) {
         echo "<div class='device'>File $filename: not found</div>";
         continue;
     }
+    $content = htmlspecialchars($content);
     $content = nl2br($content);
     echo "<div class='device'><p class='title'>$filename</p><div class='device-content'>$content</div></div>";
 }
